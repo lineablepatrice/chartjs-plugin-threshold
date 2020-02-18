@@ -1,14 +1,20 @@
 {
   "name": "chartjs-plugin-threshold",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "main": "dist/chartjs-plugin-threshold.js",
   "devDependencies": {
     "eslint-config-chartjs": "^0.1.0",
     "gitbook-cli": "^2.3.2",
@@ -28,5 +34,8 @@
     "rollup-stream": "^1.24.1",
     "vinyl-source-stream": "^2.0.0",
     "yargs": "^10.1.1"
+  },
+  "peerDependencies": {
+    "chart.js": "^2.9.3"
   }
 }

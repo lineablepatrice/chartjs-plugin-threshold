@@ -1,12 +1,12 @@
 /*
  * @license
  * chartjs-plugin-threshold
- * http://abelheinsbroek.nl/
- * Version: 1.0.0
+ * Version: 1.0.7
  *
  * Copyright 2020 Abel Heinsbroek
+ * Edited by PL
  * Released under the MIT license
- * https://github.com/abelheinsbroek/chartjs-plugin-threshold/blob/master/LICENSE.md
+ * https://github.com/patricelineable/chartjs-plugin-threshold/blob/master/LICENSE.md
  */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('chart.js')) :

@@ -3,12 +3,12 @@ const pkg = require('./package.json');
 const banner = `/*
  * @license
  * ` + pkg.name + `
- * http://abelheinsbroek.nl/
  * Version: ` + pkg.version + `
  *
  * Copyright ` + (new Date().getFullYear()) + ` Abel Heinsbroek
+ * Edited by PL
  * Released under the MIT license
- * https://github.com/abelheinsbroek/` + pkg.name + `/blob/master/LICENSE.md
+ * https://github.com/patricelineable/` + pkg.name + `/blob/master/LICENSE.md
  */`;
 
 export default {
