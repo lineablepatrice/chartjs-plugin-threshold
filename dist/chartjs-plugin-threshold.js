@@ -50,7 +50,7 @@ var tracePlugin = {
         }
       }
       // line border color
-      dataset.borderColor = this.calculateGradient(chart, dataset.backgroundColor[index]);
+      dataset.borderColor = this.calculateGradient(chart, dataset.backgroundColor);
       dataset.pointBackgroundColor = backgroundColors;
       dataset.pointBorderColor = backgroundColors;
     }
